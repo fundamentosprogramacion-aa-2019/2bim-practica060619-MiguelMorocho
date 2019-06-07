@@ -9,18 +9,14 @@ import java.util.Scanner;
 
 /**
  *
- * @author INSPIRON
+ * @author Miguel 
  */
 public class Manejo_de_Arreglos {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // TODO code application logic here
         int[] valores = new int[4];
         Scanner entrada = new Scanner(System.in);
-        int datos = 0;
 
         System.out.println(valores[3]);
         valores[1 + 1] = 35;
